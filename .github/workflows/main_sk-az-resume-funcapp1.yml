@@ -27,6 +27,7 @@ jobs:
         python-version: ${{ env.PYTHON_VERSION }}
 
     - name: 'Resolve Project Dependencies Using Pip'
+      working-directory: src/backend/api/py/ 
       shell: bash
       run: |
         pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
