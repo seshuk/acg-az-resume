@@ -21,7 +21,7 @@ data = {
             "enddate": "May 2018",
             "responsibilites": [
                 "Design and development of multiple products and APIs using .NET and .NET Core.",
-                "Implementing SDKs for third party developers",
+                "Implementing SDKs for third party developers.",
                 "Development stacks including web, desktop and mobile apps (Xamarin and UWP)"
             ]
         },
