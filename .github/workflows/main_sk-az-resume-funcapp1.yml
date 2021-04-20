@@ -5,8 +5,9 @@ name: Build and deploy Python project to Azure Function App - sk-az-resume-funca
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+     - 'src/backend/api/py/**'
   workflow_dispatch:
 
 env:
